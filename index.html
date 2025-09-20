@@ -96,6 +96,13 @@
 
 <body class="bg-white">
   <!-- Navbar -->
+  <div id="ageModal">
+    <div class="modal-content">
+      <h2>Apakah usia Anda 18+?</h2>
+      <button class="yes-btn" onclick="enterSite()">Ya</button>
+      <button class="no-btn" onclick="redirect()">Tidak</button>
+    </div>
+  </div>
   <nav class="d-md-flex fixed-top bg-white p-4">
     <div>
       <h1 style="color: black;">ChillDulu</h1>
@@ -166,6 +173,33 @@
             <p class="card-text text-dark fw-bold">Anggur Merah Cap Orang Tua 650ML</p>
             <p class="card-text text-dark fw-light">Segar,beraroma, hangat, & elegan.</p>
           </div>
+          <div class="d-none deskripsi">
+            <h6>Deskripsi Produk</h6>
+            <p>Anggur Merah adalah minuman beralkohol yang terbuat dari fermentasi buah anggur pilihan, menghasilkan
+              rasa manis
+              asam yang seimbang dengan aroma buah yang khas. Minuman ini menghadirkan sensasi segar sekaligus hangat,
+              cocok
+              dinikmati dalam suasana santai maupun acara spesial. Dengan kadar alkohol yang lebih ringan dibanding
+              spirit keras,
+              Anggur Merah ideal diminum bersama teman atau keluarga — baik langsung, dengan es, maupun dicampur dalam
+              minuman
+              lainnya.</p>
+
+            <h6>Manfaat (kalau dikonsumsi dengan bijak):</h6>
+            <ol>
+              <li>Relaksasi tubuh: Memberi rasa tenang setelah beraktivitas seharian.</li>
+              <li>Sirkulasi darah: Kandungan alami dari anggur diyakini mendukung kesehatan jantung.</li>
+              <li>Peningkat suasana hati: Cocok untuk mencairkan suasana dalam kebersamaan.</li>
+              <li>Sumber antioksidan: Anggur merah mengandung polifenol yang baik untuk tubuh.</li>
+              <li>Pendamping hidangan: Pas banget dinikmati bersama makanan, terutama daging atau menu berkuah.</li>
+            </ol>
+
+            <p class="alert alert-danger">⚠️ Catatan Penting:
+              Khusus untuk kamu yang berusia 21 tahun ke atas.
+              Nikmati dengan bijak. Jangan minum saat nyetir.
+              Santaiin harimu, bukan hancurin malammu.
+            </p>
+          </div>
           <div class="d-md-flex row row-cols-1 row-cols-2 ">
             <span class=" text-success  fw-bold d-block p-2 harga text-start ">70,000,00</span>
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
@@ -181,6 +215,28 @@
           <div class="card-body">
             <p class="card-text text-dark fw-bold">OAK AGED Drum Whisky 350ML</p>
             <p class="card-text text-dark fw-light">Segar,beraroma, hangat, & elegan.</p>
+          </div>
+          <div class="d-none deskripsi">
+            <h6>Deskripsi Produk</h6>
+            <p>Drum Whisky adalah minuman beralkohol yang dikenal dengan rasa khas dari whisky grain pilihan dan proses
+              fermentasi yang halus. Minuman ini menghadirkan kombinasi aroma smoky dan rasa hangat yang menyelinap
+              perlahan di tenggorokan. Cocok banget buat lo yang cari minuman kuat dengan sentuhan elegan, tapi tetap
+              ramah di lidah.
+              Dengan kadar alkohol sekitar 40%, Drum Whisky ideal untuk dinikmati secara perlahan — baik straight, on
+              the rocks, atau dicampur dalam cocktail.</p>
+            <h6>Manfaat (kalau dikonsumsi dengan bijak):</h6>
+            <ol>
+              <li>Penghangat tubuh: Cocok diminum saat cuaca dingin atau untuk mengusir masuk angin ringan.</li>
+              <li>Relaksasi mental: Membantu meredakan stres setelah hari panjang, bikin pikiran lebih tenang.</li>
+              <li>Sirkulasi darah lancar: Konsumsi ringan dapat membantu aliran darah tetap optimal.</li>
+              <li>Pelebur suasana: Pas banget buat membuka obrolan dan mencairkan suasana nongkrong.</li>
+              <li>Bantu tidur: Konsumsi sedikit bisa bantu kamu merasa lebih rileks menjelang tidur.</li>
+            </ol>
+            <p class="alert alert-danger">⚠️ Catatan Penting:
+              Khusus untuk kamu yang berusia 21 tahun ke atas.
+              Nikmati dengan bijak. Jangan minum saat nyetir.
+              Santaiin harimu, bukan hancurin malammu.
+            </p>
           </div>
           <div class="d-md-flex row row-cols-1 row-cols-2 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">170,000,00</span>
@@ -198,6 +254,31 @@
             <p class="card-text fw-bold text-dark">Vibe Merah 650ML Vodka Original</p>
             <p class="card-text text-dark fw-light">Segar,beraroma, hangat, & elegan.</p>
           </div>
+          <div class="d-none deskripsi">
+            <h6>Deskripsi Produk</h6>
+            <p>Vibe Merah adalah minuman beralkohol dengan cita rasa fruity yang segar dan manis, cocok untuk kamu yang
+              suka
+              sensasi ringan namun tetap menyenangkan. Kombinasi rasa buah yang khas membuat Vibe Merah jadi pilihan
+              tepat untuk
+              menemani momen santai, pesta, atau nongkrong bareng teman. Dengan kadar alkohol yang relatif rendah,
+              minuman ini
+              ramah di lidah dan mudah dinikmati siapa saja.</p>
+
+            <h6>Manfaat (kalau dikonsumsi dengan bijak):</h6>
+            <ol>
+              <li>Mencairkan suasana: Bikin hangout atau kumpul bareng jadi lebih seru.</li>
+              <li>Relaksasi ringan: Memberi efek tenang tanpa rasa terlalu berat.</li>
+              <li>Peningkat mood: Rasa manis buah membantu bikin suasana hati lebih happy.</li>
+              <li>Pilihan praktis: Bisa diminum langsung dalam keadaan dingin, tanpa perlu campuran.</li>
+              <li>Cocok untuk pemula: Rasa yang ringan pas buat yang baru coba minuman beralkohol.</li>
+            </ol>
+
+            <p class="alert alert-danger">⚠️ Catatan Penting:
+              Khusus untuk kamu yang berusia 21 tahun ke atas.
+              Nikmati dengan bijak. Jangan minum saat nyetir.
+              Santaiin harimu, bukan hancurin malammu.
+            </p>
+          </div>
           <div class="d-md-flex row row-cols-1 row-cols-2 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">220,000,00</span>
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
@@ -213,6 +294,31 @@
           <div class="card-body">
             <p class="card-text fw-bold text-dark">Vodka Original Vibe black 650ML</p>
             <p class="card-text text-dark fw-light">Segar,beraroma, hangat, & elegan.</p>
+          </div>
+          <div class="d-none deskripsi">
+            <h6>Deskripsi Produk</h6>
+            <p>Vodka Original Vibe Black adalah minuman beralkohol dengan karakter kuat dan rasa khas vodka murni yang
+              tajam
+              namun tetap halus di lidah. Hadir dengan aroma netral dan aftertaste yang clean, minuman ini cocok untuk
+              kamu
+              yang mencari sensasi tegas dan elegan. Bisa dinikmati langsung, dengan es, atau jadi campuran dasar untuk
+              berbagai
+              cocktail favorit.</p>
+
+            <h6>Manfaat (kalau dikonsumsi dengan bijak):</h6>
+            <ol>
+              <li>Penghangat tubuh: Memberikan sensasi hangat yang pas saat malam atau cuaca dingin.</li>
+              <li>Relaksasi mental: Membantu meredakan stres dan menenangkan pikiran setelah aktivitas panjang.</li>
+              <li>Campuran serbaguna: Jadi base ideal untuk berbagai racikan cocktail klasik maupun modern.</li>
+              <li>Peningkat suasana: Pas untuk menambah energi dan mencairkan suasana pesta atau nongkrong.</li>
+              <li>Memberi rasa percaya diri: Sensasi kuatnya bisa bikin lebih bersemangat dalam momen spesial.</li>
+            </ol>
+
+            <p class="alert alert-danger">⚠️ Catatan Penting:
+              Khusus untuk kamu yang berusia 21 tahun ke atas.
+              Nikmati dengan bijak. Jangan minum saat nyetir.
+              Santaiin harimu, bukan hancurin malammu.
+            </p>
           </div>
           <div class="d-md-flex row row-cols-1 row-cols-2 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">220,000,00</span>
@@ -230,6 +336,31 @@
             <p class="card-text fw-bold text-dark">Kawa Kawa Liquor Avenue 650ML</p>
             <p class="card-text text-dark fw-light">Segar,beraroma, hangat, & elegan.</p>
           </div>
+          <div class="d-none deskripsi">
+            <h6>Deskripsi Produk</h6>
+            <p>Kawa Kawa Liquor Avenue adalah minuman beralkohol dengan sentuhan rasa herbal dan rempah tropis yang
+              unik,
+              menghadirkan sensasi eksotis sekaligus menyegarkan. Dengan perpaduan rasa manis, sedikit pahit, dan aroma
+              khas
+              dari bahan alami, minuman ini cocok untuk kamu yang suka pengalaman berbeda dari minuman biasa. Ideal
+              dinikmati
+              langsung, dengan es, atau dijadikan campuran cocktail yang penuh karakter.</p>
+
+            <h6>Manfaat (kalau dikonsumsi dengan bijak):</h6>
+            <ol>
+              <li>Relaksasi alami: Rasa herbal memberi efek menenangkan setelah beraktivitas.</li>
+              <li>Mencairkan suasana: Cocok untuk nongkrong santai maupun acara spesial.</li>
+              <li>Sensasi unik: Memberikan pengalaman rasa berbeda dibanding minuman beralkohol pada umumnya.</li>
+              <li>Pendamping makanan: Pas disajikan bersama hidangan bercita rasa kuat.</li>
+              <li>Peningkat mood: Kombinasi rasa dan aroma membuat suasana jadi lebih hangat dan rileks.</li>
+            </ol>
+
+            <p class="alert alert-danger">⚠️ Catatan Penting:
+              Khusus untuk kamu yang berusia 21 tahun ke atas.
+              Nikmati dengan bijak. Jangan minum saat nyetir.
+              Santaiin harimu, bukan hancurin malammu.
+            </p>
+          </div>
           <div class="d-md-flex row row-cols-1 row-cols-2 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">70,000,00</span>
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
@@ -245,6 +376,31 @@
           <div class="card-body">
             <p class="card-text fw-bold text-dark">Intisari Isi 3 Mini Bundling 275ML</p>
             <p class="card-text text-dark fw-light">Segar,beraroma, hangat, & elegan.</p>
+          </div>
+          <div class="d-none deskripsi">
+            <h6>Deskripsi Produk</h6>
+            <p>Intisari Isi 3 Mini Bundling adalah paket minuman beralkohol praktis yang menghadirkan cita rasa manis,
+              hangat,
+              dan mudah dinikmati. Dikemas dalam botol mini, bundling ini cocok untuk kamu yang ingin menikmati Intisari
+              dengan
+              cara lebih hemat dan fleksibel. Pas untuk menemani kumpul santai, perjalanan, atau sekadar stok kecil di
+              rumah
+              tanpa ribet.</p>
+
+            <h6>Manfaat (kalau dikonsumsi dengan bijak):</h6>
+            <ol>
+              <li>Praktis: Ukuran mini memudahkan dibawa ke mana saja.</li>
+              <li>Hemat: Bundling isi 3 bikin lebih ekonomis daripada beli satuan.</li>
+              <li>Mencairkan suasana: Pas untuk dinikmati bareng teman saat kumpul santai.</li>
+              <li>Relaksasi ringan: Rasa hangatnya memberi ketenangan setelah aktivitas.</li>
+              <li>Cocok untuk pemula: Porsi kecil memudahkan untuk menikmati tanpa berlebihan.</li>
+            </ol>
+
+            <p class="alert alert-danger">⚠️ Catatan Penting:
+              Khusus untuk kamu yang berusia 21 tahun ke atas.
+              Nikmati dengan bijak. Jangan minum saat nyetir.
+              Santaiin harimu, bukan hancurin malammu.
+            </p>
           </div>
           <div class="d-md-flex row row-cols-1 row-cols-2 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">85,000,00</span>
@@ -295,13 +451,45 @@
         </ol>
       </div>
     </div><br><br><br><br>
+    <!-- modal -->
 
+    <button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch demo modal
+    </button>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content bg-black">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white modalTitle" id="exampleModalLabel "></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body row">
+            <div class="modalImage col-md-6 col-12"></div>
+            <div class="col-md-6 col-12">
+              <div class="modalDeskripsi text-white"></div>
+              <div class="p-2 d-md-flex">
+                <span class=" text-success fw-bold d-block text-center text-white harga modalHarga"
+                  style="font-size: 20px;"></span>
+                <a href="" target="blank" class="ms-auto btn text-white btn-warning fw-bold d-block btnBeli"><i
+                    class="fab fa-whatsapp"></i>
+                  Pesan Sekarang</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Mini Cart -->
-    <div class="cart-box fixed-bottom" id="miniCart">
+    <!-- <div class="cart-box fixed-bottom" id="miniCart">
       <h6><i class="fa-solid fa-cart-shopping"> </i> Keranjang</h6>
       <ul id="cartItems" class="list-unstyled"></ul>
       <button class="btn btn-success btn-sm w-100" id="checkoutBtn">Checkout</button>
-    </div>
+    </div> -->
 
     <!-- Copyright -->
     <div class="text-center text-dark p-4 border-top">&copy; 2025 ChillDulu - Taofik Muhammad Dimas</div>
@@ -315,6 +503,7 @@
   <script>
     AOS.init();
   </script>
+
 </body>
 
 </html>
