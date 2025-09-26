@@ -96,29 +96,30 @@
 
 <body class="bg-white">
   <!-- Navbar -->
-  <div id="ageModal">
+  <!-- <div id="ageModal">
     <div class="modal-content">
       <h2>Apakah usia Anda 18+?</h2>
       <button class="yes-btn" onclick="enterSite()">Ya</button>
       <button class="no-btn" onclick="redirect()">Tidak</button>
     </div>
-  </div>
-  <nav class="d-md-flex fixed-top bg-white p-4">
+  </div> -->
+  <nav class="d-md-flex sticky-top bg-white p-4">
     <div>
       <h1 style="color: black;">ChillDulu</h1>
     </div>
     <div class="ms-auto my-auto">
       <ul class="list-inline m-0">
-        <li class="list-inline-item mx-md-3"><a href="" class="text-decoration-none  fw-bold"
+        <li class="list-inline-item mx-md-3"><a href="#produk" class="text-decoration-none  fw-bold"
             style="color: black;">Produk
           </a>
         </li>
-        <li class="list-inline-item mx-md-3"><a href="" class="text-decoration-none  fw-bold"
-            style="color: black;">Tentang
-            Kami</a></li>
-        <li class="list-inline-item mx-md-3"><a href="" class="text-decoration-none  fw-bold" style="color: black;">Cara
+        <li class="list-inline-item mx-md-3"><a href="#order" class="text-decoration-none  fw-bold"
+            style="color: black;">Cara
             Order</a>
         </li>
+        <li id="" class="list-inline-item mx-md-3"><a href="" class="text-decoration-none btn btn-primary fw-bold"
+            style="color: white;">Login
+          </a></li>
       </ul>
     </div>
   </nav>
@@ -165,7 +166,7 @@
 
 
 
-    <div class="row row-cols-md-3 row-cols-1 gx-5 p-5">
+    <div id="produk" class="row row-cols-md-3 row-cols-1 gx-5 p-5">
       <div class="col mb-5">
         <div class="product-card card border-0 bg-white" data-aos="fade-up" data-aos-delay="150">
           <img src="images/1.jpg" class="card-img-top rounded" alt="...">
@@ -200,12 +201,16 @@
               Santaiin harimu, bukan hancurin malammu.
             </p>
           </div>
-          <div class="d-md-flex row row-cols-1 row-cols-2 ">
+          <div class="d-md-flex row row-cols-2 row-cols-3 ">
             <span class=" text-success  fw-bold d-block p-2 harga text-start ">70,000,00</span>
+
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
               data-name="Anggur Merah Cap Orang Tua 650ML" data-price="70.000"><i class="fa-solid fa-cart-shopping"></i>
-              Pesan
-              Sekarang</a>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone={nohp}&text=Halo Kak"
+              class=" ms-auto btn  text-dark fw-bold d-block  underline-hover add-to-cart"
+              data-name="Anggur Merah Cap Orang Tua 650ML" data-price="70.000"><i class="bi bi-chat-dots-fill"></i></i>
+            </a>
           </div>
         </div>
       </div>
@@ -238,12 +243,15 @@
               Santaiin harimu, bukan hancurin malammu.
             </p>
           </div>
-          <div class="d-md-flex row row-cols-1 row-cols-2 ">
+          <div class="d-md-flex row row-cols-1 row-cols-3 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">170,000,00</span>
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
               data-name="OAK AGED Drum Whisky 350ML" data-price="170.000"><i class="fa-solid fa-cart-shopping"></i>
-              Pesan
-              Sekarang</a>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone={nohp}&text=Halo Kak"
+              class=" ms-auto btn  text-dark fw-bold d-block  underline-hover add-to-cart"
+              data-name="OAK AGED Drum Whisky 350ML" data-price="70.000"><i class="bi bi-chat-dots-fill"></i></i>
+            </a>
           </div>
         </div>
       </div>
@@ -279,12 +287,15 @@
               Santaiin harimu, bukan hancurin malammu.
             </p>
           </div>
-          <div class="d-md-flex row row-cols-1 row-cols-2 ">
+          <div class="d-md-flex row row-cols-1 row-cols-3 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">220,000,00</span>
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
               data-name="Vibe Merah 650ML Vodka Original" data-price="220.000"><i class="fa-solid fa-cart-shopping"></i>
-              Pesan
-              Sekarang</a>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone={nohp}&text=Halo Kak"
+              class=" ms-auto btn  text-dark fw-bold d-block  underline-hover add-to-cart"
+              data-name="Vibe Merah 650ML Vodka Original" data-price="220.000"><i class="bi bi-chat-dots-fill"></i></i>
+            </a>
           </div>
         </div>
       </div>
@@ -320,12 +331,15 @@
               Santaiin harimu, bukan hancurin malammu.
             </p>
           </div>
-          <div class="d-md-flex row row-cols-1 row-cols-2 ">
+          <div class="d-md-flex row row-cols-1 row-cols-3 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">220,000,00</span>
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
               data-name="Vodka Original Vibe black 650ML" data-price="220.000"><i class="fa-solid fa-cart-shopping"></i>
-              Pesan
-              Sekarang</a>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone={nohp}&text=Halo Kak"
+              class=" ms-auto btn  text-dark fw-bold d-block  underline-hover add-to-cart"
+              data-name="Vibe Merah 650ML Vodka Original" data-price="220.000"><i class="bi bi-chat-dots-fill"></i></i>
+            </a>
           </div>
         </div>
       </div>
@@ -361,12 +375,15 @@
               Santaiin harimu, bukan hancurin malammu.
             </p>
           </div>
-          <div class="d-md-flex row row-cols-1 row-cols-2 ">
+          <div class="d-md-flex row row-cols-1 row-cols-3 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">70,000,00</span>
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
               data-name="Kawa Kawa Liquor Avenue 650ML" data-price="70.000"><i class="fa-solid fa-cart-shopping"></i>
-              Pesan
-              Sekarang</a>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone={nohp}&text=Halo Kak"
+              class=" ms-auto btn  text-dark fw-bold d-block  underline-hover add-to-cart"
+              data-name="Vibe Merah 650ML Vodka Original" data-price="220.000"><i class="bi bi-chat-dots-fill"></i></i>
+            </a>
           </div>
         </div>
       </div>
@@ -402,13 +419,16 @@
               Santaiin harimu, bukan hancurin malammu.
             </p>
           </div>
-          <div class="d-md-flex row row-cols-1 row-cols-2 ">
+          <div class="d-md-flex row row-cols-1 row-cols-3 ">
             <span class=" text-success fw-bold d-block p-2 harga text-start ">85,000,00</span>
             <a class=" ms-auto btn  text-dark fw-bold d-block btnDetail underline-hover add-to-cart"
               data-name="Intisari Isi 3 Mini Bundling 275ML" data-price="85.000"><i
                 class="fa-solid fa-cart-shopping"></i>
-              Pesan
-              Sekarang</a>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone={nohp}&text=Halo Kak"
+              class=" ms-auto btn  text-dark fw-bold d-block  underline-hover add-to-cart"
+              data-name="Vibe Merah 650ML Vodka Original" data-price="220.000"><i class="bi bi-chat-dots-fill"></i></i>
+            </a>
           </div>
         </div>
       </div>
@@ -432,7 +452,7 @@
       </div>
     </div> -->
     <!-- cara order -->
-    <div class="px-4 py-4  ext-center" data-aos="fade-left" data-aos-delay="350">
+    <div id="order" class="px-4 py-4  ext-center" data-aos="fade-left" data-aos-delay="350">
       <div class="mx-auto w-75">
         <h3 class="text-dark">🍾 Cara Order</h3>
         <ol class="text-start text-dark">
