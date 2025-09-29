@@ -22,7 +22,8 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         document.querySelector('.modalHarga').innerHTML = harga;
         
         const nohp = '6289654232550';
-        let pesan = `https://api.whatsapp.com/send?phone={nohp}&text=Halo Kak Saya Pesan Produk ini ${gambar}`;
+        let pesan = `https://api.whatsapp.com/send?phone=${nohp}&text=${encodeURIComponent(`Halo Kak, Saya Pesan Produk ini ${gambar}`)}`;
+
 
         document.querySelector('.btnBeli').href = pesan;
         // Keranjang
