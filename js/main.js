@@ -28,7 +28,7 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         document.querySelector('.btnBeli').href = pesan;
         // Keranjang
 
-
+      
 
     });
 });
