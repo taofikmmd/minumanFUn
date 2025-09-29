@@ -8,12 +8,11 @@ Selamat datang di **ChillDulu**, platform e-commerce untuk penjualan minuman ber
 
 ## 🚀 Fitur Utama
 
-- 🛒 Keranjang belanja dan sistem checkout
-- 🔐 Autentikasi pengguna Login & Register CMasih dalam proses pembuatan)
-- 📦 Manajemen pesanan pengguna
+- 🛒 Keranjang belanja dan sistem checkout (Masih dalam proses pengembangan)
+- 🔐 Autentikasi pengguna Login & Register (Masih dalam proses pengembangan)
+- 📦 Manajemen pesanan pengguna (Masih dalam proses pengembangan)
 - 📝 Halaman detail produk
 - 📱 Desain responsif (mobile-friendly)
-- 📃 Halaman Syarat & Ketentuan / Kebijakan Privasi
 
 ---
 
